@@ -19,6 +19,9 @@ class Solution{
                 cs =0;
             }
             ms = max(cs,ms);
+            if(ms<0){
+             ms = -1;
+            }
         }
         return ms;
         
